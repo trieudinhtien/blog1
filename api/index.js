@@ -7,7 +7,7 @@ const userRouter = require('./routes/users');
 const postRouter = require('./routes/posts');
 const catRouter = require('./routes/categorys');
 const multer = require("multer");
-const path = require("path")
+const path = require("path");
 
 dotenv.config();
 app.use(express.json());
